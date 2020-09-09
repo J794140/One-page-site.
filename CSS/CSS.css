@@ -1,0 +1,34 @@
+/* ESTILOS*/
+htmL, body {
+    height: 100%;
+}
+/*Modificar el modelo de cajas*/
+html {
+	-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+}
+*,*::before, *::after {
+	-webkit-box-sizing: inherit;
+			box-sizing: inherit;
+}
+/*Resetear márgenes y padding*/
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+	width: 90%;
+	max-width: 1366px;
+	margin: 0 auto;
+}
+/*Barra de navegación*/
+#navigation {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
